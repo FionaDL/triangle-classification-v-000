@@ -10,10 +10,10 @@ class Triangle
 
 
 
-  def kind (triangle)
+  def kind 
     if a == b && b == c && c == a
       :equilateral
-    elsif 
+    elsif
       
     end
   end
