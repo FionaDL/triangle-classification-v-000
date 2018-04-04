@@ -5,7 +5,7 @@ class Triangle
   def initialization (length1, length2, length3)
   end
 
-  def equilateral(triangle)
+  def equilateral
     if length1 == length2 && length2 == length3 && length1 == length3
     true
   end
@@ -13,7 +13,9 @@ class Triangle
 
 
 
-  def kind
+  def kind (triangle)
+    if triangle.equilateral == true
+      
   end
 
   class TriangleError < StandardError
