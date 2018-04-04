@@ -5,8 +5,9 @@ class Triangle
   def initialization (length1, length2, length3)
   end
 
-  def equilateral
-    
+  def equilateral(triangle)
+    length1 == length2 && length2 == length3 && length1 == length3
+    true
   end
 
 
