@@ -15,7 +15,7 @@ class Triangle
 
   def kind (triangle)
     if triangle.equilateral == true
-      
+    end
   end
 
   class TriangleError < StandardError
