@@ -11,14 +11,14 @@ class Triangle
 
 
   def kind
-    if a == b && b == c && c == a
+    if  a + b < c || a <= 0 || b <= 0 || c <= 0 
+      raise TriangleError
+    elsif a == b && b == c && c == a
       :equilateral
     elsif a == b || b == c || c == a
       :isosceles
     elsif a != b && b != c && c != a
       :scalene
-    elsif a + b < c || a <= 0 || b <= 0 || c <= 0 
-      raise TriangleError
     end
   end
 
