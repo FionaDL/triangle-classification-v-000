@@ -13,6 +13,8 @@ class Triangle
   def kind (triangle)
     if a == b && b == c && c == a
       :equilateral
+    elsif 
+      
     end
   end
 
