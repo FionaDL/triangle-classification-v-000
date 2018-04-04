@@ -10,7 +10,7 @@ class Triangle
 
 
 
-  def kind 
+  def kind
     if a == b && b == c && c == a
       :equilateral
     end
