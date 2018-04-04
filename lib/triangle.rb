@@ -3,7 +3,9 @@ class Triangle
   attr_accessor :a, :b, :c
 
   def initialization (a, b, c)
-  
+    @a = a
+    @b = b
+    @c = c
   end
 
 
