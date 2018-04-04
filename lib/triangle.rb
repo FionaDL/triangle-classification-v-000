@@ -11,7 +11,8 @@ class Triangle
 
 
   def kind (triangle)
-    if triangle.equilateral == true
+    if a == b && b == c && c == a
+      :equilateral
     end
   end
 
