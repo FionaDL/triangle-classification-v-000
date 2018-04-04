@@ -6,8 +6,9 @@ class Triangle
   end
 
   def equilateral(triangle)
-    length1 == length2 && length2 == length3 && length1 == length3
+    if length1 == length2 && length2 == length3 && length1 == length3
     true
+  end
   end
 
 
